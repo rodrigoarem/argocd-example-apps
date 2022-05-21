@@ -14,7 +14,8 @@ spec:
     path: sync-waves
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
-# teste rollout
+# id 00 = primeiro deploy
+# teste rollout 01
 # teste rollback id 02 argocd app history app
 # id 03
 # id 04
@@ -24,3 +25,4 @@ spec:
 # id 08
 # id 09
 # id 10
+# id 11
